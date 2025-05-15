@@ -10,6 +10,20 @@ class Node {
         Node *prev;
 };
 
+class DoubleLinkedList {
+    private:
+        Node *START;
+
+    public:
+        DoubleLinkedList() {
+            START = NULL;
+        }
+
+        void addNode() {
+            int nim;
+        }
+};
+
 int main() {
     return 0;
 }
