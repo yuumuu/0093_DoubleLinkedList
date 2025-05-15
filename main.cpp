@@ -133,6 +133,21 @@ class DoubleLinkedList {
                 i++;
             }
         }
+
+        void revtraverse() {
+            if (START == NULL) {
+                cout << "\nList is empty" << endl;
+                return;
+            }
+
+            // Step 1: Move to last node
+            Node *currentNode = START;
+            int i = 0;
+            while (currentNode->next != NULL) {
+                currentNode = currentNode->next;
+                i++;
+            }
+        }
 };
 
 int main() {
